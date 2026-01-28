@@ -1,0 +1,1134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="active">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content falcons">
+<div class="banner">Team Falcons</div>
+<div class="section">
+<p>
+Team Falcons — современный проект с крупными инвестициями,
+ориентированный на быстрый рост и международный успех.
+</p>
+<p>
+Команда активно привлекает звёздных игроков и использует
+современные аналитические инструменты.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2023</td><td>IEM Cologne</td><td>3–4</td></tr>
+<tr><td>2024</td><td>BLAST Premier</td><td>2</td></tr>
+<tr><td>2026</td><td>ESL Pro League</td><td>1</td></tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="active">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content faze">
+<div class="banner">FaZe Clan</div>
+<div class="section">
+<p>
+FaZe Clan — интернациональная команда,
+объединившая лучших игроков мира.
+Команда известна агрессивным стилем и медийностью.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2018</td><td>ELEAGUE Major</td><td>2</td></tr>
+<tr><td>2022</td><td>PGL Major Antwerp</td><td>1</td></tr>
+<tr><td>2022</td><td>IEM Katowice</td><td>1</td></tr>
+<tr><td>2026</td><td>BLAST Premier</td><td>2</td></tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="active">G2</a></div>
+<div class="content g2">
+<div class="banner">G2 Esports</div>
+<div class="section">
+<p>
+G2 Esports — европейская организация,
+сочетающая медийность и соревновательный успех.
+Команда регулярно участвует в финальных стадиях
+крупнейших турниров.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2017</td><td>DreamHack Masters</td><td>1</td></tr>
+<tr><td>2020</td><td>BLAST Premier</td><td>1</td></tr>
+<tr><td>2022</td><td>IEM Katowice</td><td>2</td></tr>
+<tr><td>2026</td><td>ESL Pro League</td><td>3–4</td></tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+.nav button{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  border:none;
+  font-family:inherit;
+}
+.nav button:hover{opacity:.85}
+.nav button.active{
+  background:var(--accent);
+  color:#000;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="active">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content main">
+<div class="banner">История Counter-Strike</div>
+<div class="section">
+<p>
+Counter-Strike появился в 1999 году как пользовательская модификация Half-Life,
+созданная Minh Le и Jess Cliffe. Изначально проект был любительским,
+однако уже через несколько месяцев стал популярным в компьютерных клубах.
+</p>
+<p>
+LAN-матчи, локальные турниры и командный формат сделали CS идеальной
+соревновательной игрой. В начале 2000-х начали формироваться первые
+профессиональные коллективы.
+</p>
+</div>
+<div class="section">
+<p>
+Эпоха CS 1.6 считается фундаментом киберспорта. Турниры CPL, WCG и ESWC
+заложили стандарты проведения соревнований, регламентов и призовых фондов.
+Появились первые трансферы и спонсорские контракты.
+</p>
+<p>
+Выход CS:GO в 2012 году стал поворотным моментом.
+Valve ввела систему мейджоров, что сделало сцену стабильной
+и привлекло миллионы зрителей.
+</p>
+</div>
+<div class="section">
+<p>
+Сегодня Counter-Strike — это развитая экосистема:
+лиги ESL и BLAST, аналитика, академии, трансферные окна,
+стриминг и глобальная фан-база.
+Переход на CS2 в 2023 году открыл новую главу истории игры.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+<div class="nav">
+  <button onclick="location.href='index.html'" class="active">Главная</button>
+  <button onclick="location.href='navi.html'">NAVI</button>
+  <button onclick="location.href='spirit.html'">Spirit</button>
+  <button onclick="location.href='falcons.html'">Falcons</button>
+  <button onclick="location.href='vitality.html'">Vitality</button>
+  <button onclick="location.href='faze.html'">FaZe</button>
+  <button onclick="location.href='g2.html'">G2</button>
+</div>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="active">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content navi">
+<div class="banner">NAVI</div>
+<div class="section">
+<p>
+Natus Vincere была основана в 2010 году и стала символом киберспорта СНГ.
+Команда известна дисциплиной, тактической глубиной и сильнейшими игроками мира.
+</p>
+<p>
+Пик популярности пришёлся на 2021 год, когда NAVI выиграли мейджор
+в Стокгольме без единого поражения.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2015</td><td>IEM Katowice</td><td>3–4</td></tr>
+<tr><td>2018</td><td>StarSeries</td><td>3</td></tr>
+<tr><td>2021</td><td>PGL Major Stockholm</td><td>1</td></tr>
+<tr><td>2023</td><td>BLAST Major Paris</td><td>3–4</td></tr>
+<tr><td>2026</td><td>ESL Pro League</td><td>2</td></tr>
+</table>
+</div>
+<div class="section">
+<h2>Турниры — подробнее</h2>
+<details><summary>PGL Major Stockholm 2021</summary><p>24 команды, $2 000 000 призовой фонд.</p></details>
+<details><summary>IEM Katowice</summary><p>Престижный ежегодный LAN-турнир, $1 000 000.</p></details>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="active">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content spirit">
+<div class="banner">Team Spirit</div>
+<div class="section">
+<p>
+Team Spirit была основана в 2015 году и долгое время развивалась как
+молодая и перспективная команда. Ставка на академию и развитие игроков
+позволила выйти в мировую элиту.
+</p>
+<p>
+Команда прославилась стратегическим подходом и умением адаптироваться
+к мета-изменениям.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2017</td><td>DreamHack Open</td><td>3–4</td></tr>
+<tr><td>2021</td><td>PGL Major</td><td>3–4</td></tr>
+<tr><td>2023</td><td>BLAST Premier</td><td>2</td></tr>
+<tr><td>2024</td><td>PGL Major</td><td>1</td></tr>
+<tr><td>2026</td><td>ESL Pro League</td><td>2</td></tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Strike</title>
+
+<style>
+:root{
+  --bg:#0e0e0e;
+  --card:#161616;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+  --accent:#d6d6d6;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#0e0e0e,#050505);
+  color:var(--text);
+}
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:16px;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:22px 0;
+}
+.logo{
+  width:60px;height:60px;
+  background:#fff;
+  color:#000;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:22px;
+}
+.header h1{margin:0;font-size:24px}
+.header span{font-size:13px;color:var(--muted)}
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
+}
+.nav a{
+  padding:12px 18px;
+  background:#1f1f1f;
+  border-radius:14px;
+  cursor:pointer;
+  font-weight:600;
+  color:white;
+  text-decoration:none;
+}
+.nav a.active{
+  background:var(--accent);
+  color:#000;
+}
+.nav a:hover{opacity:.85}
+.content{
+  background:var(--card);
+  padding:30px;
+  border-radius:24px;
+}
+.banner{
+  height:220px;
+  border-radius:22px;
+  background:linear-gradient(135deg,var(--accent),#000);
+  display:flex;
+  align-items:flex-end;
+  padding:24px;
+  font-size:32px;
+  font-weight:900;
+}
+.section{
+  margin-top:30px;
+  background:rgba(255,255,255,.03);
+  padding:24px;
+  border-radius:18px;
+}
+h2{margin-top:0;color:var(--accent)}
+p{color:var(--muted);line-height:1.9;font-size:16px}
+table{width:100%;border-collapse:collapse}
+th,td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+details{
+  background:rgba(255,255,255,.04);
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:12px;
+}
+summary{cursor:pointer;font-weight:700}
+.main{--accent:#d6d6d6}
+.navi{--accent:#ffd400}
+.spirit{--accent:#ffffff}
+.falcons{--accent:#00ff88}
+.vitality{--accent:#ffd000}
+.faze{--accent:#e10600}
+.g2{
+  --accent:#cfcfcf;
+  background:#f2f2f2;
+  color:#111;
+  --muted:#444;
+}
+@media(max-width:800px){
+  .banner{font-size:22px;height:160px}
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="logo">CS</div>
+  <div>
+    <h1>Counter-Strike</h1>
+    <span>История киберспорта и ведущие команды мира</span>
+  </div>
+</div>
+
+<div class="nav"><a href="index.html" class="">Главная</a><a href="navi.html" class="">NAVI</a><a href="spirit.html" class="">Spirit</a><a href="falcons.html" class="">Falcons</a><a href="vitality.html" class="active">Vitality</a><a href="faze.html" class="">FaZe</a><a href="g2.html" class="">G2</a></div>
+<div class="content vitality">
+<div class="banner">Vitality</div>
+<div class="section">
+<p>
+Team Vitality — французская организация, сделавшая ставку
+на развитие индивидуального мастерства.
+Ключевым игроком стал ZywOo.
+</p>
+</div>
+<div class="section">
+<h2>Турниры (2015–2026)</h2>
+<table>
+<tr><th>Год</th><th>Турнир</th><th>Место</th></tr>
+<tr><td>2019</td><td>ESL Pro League</td><td>1</td></tr>
+<tr><td>2020</td><td>BLAST Premier</td><td>1</td></tr>
+<tr><td>2023</td><td>BLAST Major</td><td>1</td></tr>
+<tr><td>2026</td><td>IEM Katowice</td><td>2</td></tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
